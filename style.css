@@ -1,0 +1,133 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Styling the body element
+        like body color and margin */
+
+body {
+  background-color: #00fac4;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/* Styling the Title and giving
+        shadow to the title */
+#title {
+  text-align: center;
+  text-shadow: 5px 5px 15px blue;
+  font-size: 75px;
+  text-decoration: underline;
+}
+
+/* Setting width and display
+        type of image */
+img {
+  border: 4px solid black;
+  /* display: inline-block; */
+  height: 75%;
+  width: 75%;
+  margin: 0px 10% 0px 12%;
+}
+
+/* Setting font color and font
+        size of the image-caption */
+#caption {
+  font-size: 17px;
+  font-family: Gill Sans;
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* Styling the content of the page like-
+        padding, font-size, font color etc.*/
+div#tribute-data {
+  background-color: rgb(46, 139, 87, 0.25);
+  box-shadow: 20px 20px 20px #98fb98;
+  font-family: Georgia;
+  padding: 25px 25px;
+  margin: 11px;
+  margin-top: 50px;
+}
+
+/* Styling the title of the content */
+h1.title-APJ {
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  text-shadow: 5px 5px 10px black;
+}
+
+#tribute-link {
+  text-align: center;
+}
+
+/* Styling the link provided at the end */
+a {
+  text-decoration: underline;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+#btntotop {
+  cursor: pointer;
+  text-decoration: none;
+  position: fixed;
+  bottom: 25px;
+  right: 30px;
+  height: 63px;
+  width: 65px;
+  padding: 8px;
+  color: white;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: black;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1300px) {
+  body {
+    background-color: #00fac4;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  #btntotop {
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    height: 63px;
+    width: 65px;
+    padding: 8px;
+  }
+}
+@media screen and (max-width: 500px) {
+  body {
+    background-color: #00fac4;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+  #btntotop {
+    position: fixed;
+    bottom: 25px;
+    right: 5px;
+    height: 50px;
+    width: 50px;
+    padding: 6px;
+    font-size: small;
+  }
+  #title {
+    font-size: 50px;
+  }
+}
