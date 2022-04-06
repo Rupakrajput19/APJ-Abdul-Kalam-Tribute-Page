@@ -101,14 +101,6 @@ a:hover {
     margin-left: 10%;
     margin-right: 10%;
   }
-  #btntotop {
-    position: fixed;
-    bottom: 25px;
-    right: 20px;
-    height: 63px;
-    width: 65px;
-    padding: 8px;
-  }
 }
 @media screen and (max-width: 500px) {
   body {
@@ -120,8 +112,8 @@ a:hover {
   }
   #btntotop {
     position: fixed;
-    bottom: 25px;
-    right: 5px;
+    bottom: 20px;
+    right: 10px;
     height: 50px;
     width: 50px;
     padding: 6px;
